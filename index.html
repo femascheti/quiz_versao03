@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz</title>
+</head>
+<body>
+
+  <h1>Quiz</h1>
+  <div id="quiz">
+    <p id="pergunta"></p>
+    <input type="radio" name="answer" value = 0 id="opcao1"><label for="opcao1" id="opcao1Label"></label><br>
+    <input type="radio" name="answer" value = 1 id="opcao2"><label for="opcao2" id="opcao2Label"></label><br>
+    <input type="radio" name="answer" value = 2 id="opcao3"><label for="opcao3" id="opcao3Label"></label><br>
+    <input type="radio" name="answer" value = 3 id="opcao4"><label for="opcao4" id="opcao4Label"></label><br>
+    <button onclick="corrigirResposta()">Responder</button>
+  </div>
+
+  <div id="resultado" style="display: none;">
+    <h2>Pontuação Final</h2>
+    <p id="pontuacao">Pontuação</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
